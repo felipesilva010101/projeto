@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 30px;
+    background-color: #26353e;
+    margin-bottom: 10px;
+}
+.logo{
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+.menu li a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu li a:hover{
+    border-bottom: 4px solid #ff0000;
+
+}
+.menu li.active{
+    border-bottom: 4px solid #ff0000;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.produtos{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.produtos a{
+    text-decoration: none;
+    color: #26353e;
+}
+.card-produto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 40px 30px;
+    margin: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+.card-produto img{
+    width: 200px;
+    height:200px;
+}
+.card-produto .info{
+    
+    padding-bottom: 10px;
+    
+}
+.preco{
+    color: #26353e;
+    margin: 8px;
+}
+.preco s{
+    font-style: italic;
+    color: #ff0000;
+}
+.preco b{
+    font-style: italic;
+    color: #4caf50;
+}
+.nota{
+    color: rgb(230, 197, 13);
+}
+
+.numeracao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.numeracao .ativo{
+    background-color: #e4e0e0;
+}
+.numero{
+    padding: 14px;
+    margin-right: 10px;
+    border: 1px solid #acabab;
+    cursor: pointer;
+}
+.numeracao a{
+    text-decoration: none;
+    color: #26353e;
+}
+.numero:hover{
+    background-color: #e4e0e0;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 7px;
+    border-right: 17px solid #db4437;
+}
+.form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+   
+}
+.form form label,
+.form form input{
+    margin-bottom: 10px;
+}
+.form form label{
+    font-size: 18px;
+}
+.form form input[type="text"],
+.form form input[type="email"],
+.form form input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #26353e;
+    font-size: 16px;
+    outline: none;
+    padding-left: 5px;
+}
+.form textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.form form input[type="submit"]{
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #db4437;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    width: 40%;
+    height: 200px;
+}
+.sobre ul li{
+    list-style: none;
+    padding: 10px;
+} 
+.area-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: row;
+
+}
+.area-produto .img-produto img{
+    width: 500px;
+    height:500px;
+}
+.area-produto .info-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.info-produto h2{
+    padding-bottom: 20px;
+}
+.info-produto table th{
+    text-align: left;
+}
+.preco-atual{
+    color: #4caf50;
+    font-weight: bold;
+    font-style: italic;
+}
+.preco-anterior{
+    color: #db4437;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn-comprar{
+    background-color: #f1c24d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 8px;
+    color: #26353e;
+}
+.btn-comprar:hover{
+    background-color: #facd5a;
+}
+.linha{
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    margin: 10px 0px;
+}
+.rodape{
+    margin:50px 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
